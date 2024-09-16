@@ -3,25 +3,109 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0F0248;
+  --foreground: #3C29D2;
+  --main-text-color: #FFFFFF;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 
+  Fonts 
+*/
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter Variable', sans-serif;
+  background-color: var(--background);
+  color: var(--main-text-color);
+  text-transform: capitalize;
+}
+body *.--sora {
+  font-family: 'Sora Variable', sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* 
+  Scrollbar 
+*/
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track,
+body {
+  background: var(--background);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--foreground) !important; 
+  border-radius: 20px;
+  border: 5px solid var(--background);
+}
+
+/* 
+  Colors 
+*/
+.mainTextColor {
+  color: var(--main-text-color);
+}
+.backgroundColor {
+  background-color: var(--background);
+}
+.foregroundColor {
+  background-color: var(--foreground);
+}
+
+/* 
+  Animations 
+*/
+.tcp-underline {
+  position: relative;
+}
+.tcp-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background-color: #FFF;
+
+  animation: animatedUnderline ease-in both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 70%;
+}
+@keyframes animatedUnderline {
+  from {
+    width: 0;
   }
+  to {
+    width: 100%;
+  }
+}
+.appear-from-bottom {
+  transform: translateY(100px);
+  opacity: 0;
+
+  animation: appearFromBottom ease-in both;
+  animation-timeline: view();
+  animation-range: entry 15% cover 40%;
+}
+@keyframes appearFromBottom {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* 
+  Sections
+*/
+/* Hero */
+.tcp-hero {
+  background-image: url('/images/azda-banner-bg.webp');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+/* Testimonios */
+.tcp-testimonios {
+
 }
