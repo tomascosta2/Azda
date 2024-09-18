@@ -52,8 +52,7 @@ export default function TestimoniosSection() {
 										"{testimonio.cita}"
 									</p>
 									<iframe 
-										width="560" 
-										height="315" 
+										className="w-full aspect-video"
 										src={testimonio.url} 
 										title="YouTube video player" 
 										frameBorder="0" 
