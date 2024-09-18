@@ -11,22 +11,22 @@ export default function TestimoniosSection() {
 
 	const TESTIMONIOS: Testimonio[] = [
 		{
-		  cita: "Me sorprendio mucho que vimos resultados en menos de dos semanas",
-		  url: "https://www.youtube.com/embed/6PmB1lD5dBk?si=DgQfAvc8Uev3lw5z",
-		  nombre: "Eva Maturano",
-		  cargo: "Consultora De RRHH",
-		},
-		{
-		  cita: "La estrella del servicio fue conseguirme lo que me habian prometido",
-		  url: "https://www.youtube.com/embed/ype_mzfqOPg?si=3L0LwjXf5W9Msh_z",
-		  nombre: "Ale Aguilar",
-		  cargo: "coach ontológica",
-		},
-		{
 		  cita: "Creo que no fue un gasto, fue una inversión de dinero",
 		  url: "https://www.youtube.com/embed/pcWygL1eVlg?si=SN4MkbEVyqoBjVvz",
 		  nombre: "Edgar Peña",
 		  cargo: "Consultora De RRHH",
+		},
+		{
+		  cita: "Me sorprendio mucho que vimos resultados en menos de dos semanas",
+		  url: "https://fast.wistia.net/embed/iframe/h60lkr4hab?seo=true&videoFoam=true",
+		  nombre: "Eva Maturano",
+		  cargo: "Consultora De RRHH",
+		},
+		{
+		  cita: "Tenía todo pero necesitaba un surtidor de clientes y con ustedes lo logramos",
+		  url: "https://fast.wistia.net/embed/iframe/9235nfzlfg?seo=true&videoFoam=true",
+		  nombre: "Ale Aguilar",
+		  cargo: "coach ontológica",
 		},
 	];
 
@@ -41,8 +41,8 @@ export default function TestimoniosSection() {
 					<Star/>
 					<Star/>
 				</div>
-				<h2 className="text-center text-[42px] font-extrabold leading-[110%] max-w-[550px] mx-auto mt-[14px] mb-[60px]">Mira lo que tienen para decir <span className="tcp-underline --4">nuestros clientes</span></h2>
-				{/* <p className="--sora mb-[35px] text-center max-w-[490px] mx-auto text-[22px] font-medium">Ellos ya saben como trabajamos... escucha lo que tienen para decir algunos de ellos.</p> */}
+				<h2 className="text-center text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mt-[14px] mb-[10px]">Nuestros ultimos <span className="tcp-underline --4">Casos de éxito</span></h2>
+				<p className="--sora text-center max-w-[600px] mx-auto text-[22px] font-medium mb-[60px]">Estos son algunos de nuestros casos de éxito, invirtieron con nosotros y escalamos su coaching/consultoría.</p>
 				<div className="grid grid-cols-2 gap-x-[40px] gap-y-[50px]">
 					{
 						TESTIMONIOS.map((testimonio) => {
@@ -51,14 +51,14 @@ export default function TestimoniosSection() {
 									<p className="font-semibold text-[24px] mb-[15px] text-center">
 										"{testimonio.cita}"
 									</p>
-									<iframe 
+									<iframe 										
 										className="w-full aspect-video"
-										src={testimonio.url} 
-										title="YouTube video player" 
+										src={testimonio.url}
+										title={testimonio.nombre} 
+										allow="autoplay; fullscreen" 
 										frameBorder="0" 
-										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-										referrerPolicy="strict-origin-when-cross-origin" 
-										allowFullScreen
+										scrolling="no" 
+										height="100%"
 									></iframe>
 								</div>
 							)

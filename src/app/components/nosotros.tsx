@@ -18,7 +18,7 @@ export default function Nosotros() {
 
 				</div>
 				<div className="md:max-w-[50%] 2xl:max-w-[60%]">
-					<h2 className="text-[42px] text-white font-extrabold mb-[30px]">¿por que azda?</h2>
+					<h2 className="text-[42px] text-white font-extrabold mb-[30px]">¿Qué es Azda?</h2>
 					<p className="text-white font-medium text-[16px]">
 						Las redes sociales han revolucionado la forma en que nos presentamos en el mercado laboral. No importa cuán talentoso seas o cuán exitosa sea tu empresa, si no tienes una presencia digital estratégica, estás perdiendo oportunidades valiosas.  
 						<br/><br/>

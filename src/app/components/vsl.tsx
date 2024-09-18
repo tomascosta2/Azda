@@ -6,8 +6,16 @@ export default function Vsl() {
 		<section className="relative z-40 mx-auto max-w-[1200px] pt-[60px]">
 			<div>
 				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video <span className="text-red-500">*</span></p>
-				<div className="bg-gray-500 w-full aspect-video">
-					<iframe className="w-full h-full" src="https://www.youtube.com/embed/c9MkC5A1uI8?si=OcEBgj05usPW0REQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+				<div className="bg-gray-500 w-full aspect-video">	
+					<iframe 										
+						className="w-full h-full"
+						src="https://fast.wistia.net/embed/iframe/fh7teh8h85?seo=true&videoFoam=true"
+						title="De esta manera vamos a escalar tu coaching/consultoria. Video"
+						allow="autoplay; fullscreen" 
+						frameBorder="0" 
+						scrolling="no" 
+						height="100%"
+					></iframe>
 				</div>
 			</div>
 			<ul className="mt-[30px] flex justify-between w-full md:px-[60px]">

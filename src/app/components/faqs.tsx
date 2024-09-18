@@ -7,28 +7,20 @@ export default function Faqs() {
 	
 	const Preguntas = [
 		{
-			pregunta: "¿Cuánto tiempo tomará ver resultados con Azda?",
-			respuesta: "Respuesta acá"
+			pregunta: "¿Cómo lo hacen?",
+			respuesta: "Con +2 años trabajando con coaches y consultores desarrollamos y validamos múltiples sistemas para lograr que nuestros clientes escalen su negocio de manera predecible y con estabilidad mes a mes, sin la incertidumbre de que tu facturación mensual sea variable."
 		},
 		{
-			pregunta: "¿Qué tipo de negocios pueden beneficiarse de sus servicios?",
-			respuesta: "Respuesta acá"
+			pregunta: "¿Es para mi si no cuento con mucho tiempo?",
+			respuesta: "Si, con 10 horas semanales ya es suficiente, nuestro propósito es optimizar tu tiempo al máximo para que no seas esclavo del negocio. Con nuestros sistemas, metodologías y embudos vamos a hacerlo todo por vos para ahorrarte la mayor cantidad de tiempo."
 		},
 		{
-			pregunta: "¿Qué incluye su oferta de servicios?",
-			respuesta: "Respuesta acá"
+			pregunta: "¿Qué pasa si no vendo High Ticket?",
+			respuesta: "Tranquilo, de todas maneras aplicaremos una reestructuración de tu oferta basándonos en el principio de la “Grand Slam Offer” (Oferta irresistible) para que los potenciales clientes con quienes te conectemos se sientan estúpidos diciendo que no."
 		},
 		{
-			pregunta: "¿Cómo garantizan los resultados?",
-			respuesta: "Respuesta acá"
-		},
-		{
-			pregunta: "¿Qué diferencia a Azda de otras agencias?",
-			respuesta: "Respuesta acá"
-		},
-		{
-			pregunta: "¿Cuáles son los costos de sus servicios?",
-			respuesta: "Respuesta acá"
+			pregunta: "¿Y si no soy experto en ventas online?",
+			respuesta: "Justamente esto es algo muy común y por esto habrá un experto en cierre de ventas online acompañándote 1a1 durante todo el proceso, analizando tus llamadas, ayudándote con los seguimientos y tendrás llamadas de coaching para resolver todas tus dudas. Pero por sobre todas las cosas lo que logramos es acortar lo máximo posible tu curva de aprendizaje para ver los resultados lo antes posible."
 		},
 	
 	]
