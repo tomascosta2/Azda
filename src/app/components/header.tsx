@@ -1,12 +1,11 @@
 import Link from "next/link";
+import Logo from "./elements/logo";
 
 export default function Header() {
 	return (
 		<header className="relative z-40 max-w-[1200px] mx-auto px-4 pt-[20px] tcp-header">
 			<div className="flex justify-between items-center">
-				<h2 className="w-[305px]">
-					<img src="/images/logo-azda.png" alt="Azda Consulting" />
-				</h2>
+				<Logo/>
 				<nav className="flex gap-[30px]">
 					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#testimonios">Testimonios</Link>
 					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#nosotros">Quienes Somos</Link>

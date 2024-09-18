@@ -31,7 +31,7 @@ export default function TestimoniosSection() {
 	];
 
 	return (
-		<section className="foregroundColor py-[100px] relative">
+		<section id="testimonios" className="foregroundColor py-[100px] relative">
 			<div className="testimonials-extra-shape"></div>
 			<div className="max-w-[1200px] mx-auto px-4">
 				<div className="flex gap-[7px] justify-center">

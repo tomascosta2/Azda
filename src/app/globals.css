@@ -37,6 +37,10 @@ body {
   border: 5px solid var(--background);
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 /* 
   Colors 
 */
@@ -127,7 +131,7 @@ body {
   to {
     transform: translateX(0);
   }
-}/* Animations */
+}
 .appear-from-bottom,
 .appear-from-right,
 .appear-from-left {
@@ -180,6 +184,10 @@ body {
 /* 
   Sections
 */
+.tc-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* Hero */
 
 /* Testimonios */
@@ -201,4 +209,14 @@ body {
   background-size: 0px 100%, 100% 2.2px;
   background-position: 0 0, 0 0, 100% 0, 0 100%;
   background-repeat: no-repeat;
+}
+
+/* Footer */
+.tcp-footer-bg {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  height: 568px;
+  background: linear-gradient(0deg, rgba(48, 22, 193, 0.60) 0%, rgba(15, 2, 72, 0.60) 100%);
 }

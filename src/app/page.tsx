@@ -4,6 +4,9 @@ import TestimoniosSection from "./components/testimonios";
 import Vsl from "./components/vsl";
 import Nosotros from "./components/nosotros";
 import Proceso from "./components/proceso";
+import Agenda from "./components/agenda";
+import Faqs from "./components/faqs";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
       <TestimoniosSection/>
       <Nosotros/>
       <Proceso/>
+      <Agenda/>
+      <Faqs/>
+      <Footer/>
     </main>
   );
 }

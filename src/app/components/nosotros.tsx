@@ -1,6 +1,6 @@
 export default function Nosotros() {
 	return (
-		<section className="foregroundColor py-[100px] relative overflow-clip">
+		<section id="nosotros" className="foregroundColor py-[100px] relative overflow-clip">
 			<div className="max-w-[1200px] mx-auto px-4">
 				<div className="absolute -right-[200px] top-[calc(50%-331px)] size-[662px]">
 					<img className="rotate-on-scroll" src="/images/rueda-nosotros.png" alt="Rueda" />
