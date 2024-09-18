@@ -127,6 +127,54 @@ body {
   to {
     transform: translateX(0);
   }
+}/* Animations */
+.appear-from-bottom,
+.appear-from-right,
+.appear-from-left {
+  transform: translateY(100px);
+  opacity: 0;
+
+  animation: appearFromBottom ease-in both;
+  animation-timeline: view();
+  animation-range: entry 15% cover 40%;
+}
+@media (min-width: 992px) {
+  .appear-from-left {
+    transform: translateX(-100px);
+    opacity: 0;
+  
+    animation: appearFromLeft ease-in both;
+    animation-timeline: view();
+    animation-range: entry 15% cover 40%;
+  }
+  @keyframes appearFromLeft {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .appear-from-right {
+    transform: translateX(100px);
+    opacity: 0;
+  
+    animation: appearFromRight ease-in both;
+    animation-timeline: view();
+    animation-range: entry 15% cover 40%;
+  }
+  @keyframes appearFromRight {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 }
 
 /* 
