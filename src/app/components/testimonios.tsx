@@ -41,14 +41,14 @@ export default function TestimoniosSection() {
 					<Star/>
 					<Star/>
 				</div>
-				<h2 className="text-center text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mt-[14px] mb-[10px]">Nuestros ultimos <span className="tcp-underline --4">Casos de éxito</span></h2>
-				<p className="--sora text-center max-w-[600px] mx-auto text-[22px] font-medium mb-[60px]">Estos son algunos de nuestros casos de éxito, invirtieron con nosotros y escalamos su coaching/consultoría.</p>
-				<div className="grid grid-cols-2 gap-x-[40px] gap-y-[50px]">
+				<h2 className="text-center text-[30px] lg:text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mt-[14px] mb-[10px]">Nuestros ultimos <span className="tcp-underline --4">Casos de éxito</span></h2>
+				<p className="--sora text-center max-w-[600px] mx-auto text-[18px] lg:text-[22px] font-medium mb-[60px]">Estos son algunos de nuestros casos de éxito, invirtieron con nosotros y escalamos su coaching/consultoría.</p>
+				<div className="grid lg:grid-cols-2 gap-x-[40px] gap-y-[50px]">
 					{
 						TESTIMONIOS.map((testimonio) => {
 							return (
 								<div className="h-fit">
-									<p className="font-semibold text-[24px] mb-[15px] text-center">
+									<p className="font-semibold text-[20px] lg:text-[24px] mb-[15px] text-center">
 										"{testimonio.cita}"
 									</p>
 									<iframe 										
@@ -65,14 +65,13 @@ export default function TestimoniosSection() {
 						})
 					}
 					<div className="block">
-						<p className="font-semibold text-[24px] mb-[15px] text-center">
+						<p className="font-semibold text-[20px] lg:text-[24px] mb-[15px] text-center">
 							"Yo tambien quiero empezar a facturar usd7.500, ¿Comó Hago?"
 						</p>
 						<a href="#calendlyDos" className="bg-[#ECE8FF] p-[39px] h-[315px] flex flex-col items-center justify-center">
-							<h3 className="text-[26px] font-bold text-[#0F0248] leading-[110%] text-center">
-								¡Hace <span className="underline">click acá</span> y agenda tu sesión gratuita, <span className="underline">Este puede ser tu lugar</span>!
+							<h3 className="text-[32px] font-bold text-[#0F0248] leading-[110%] text-center">
+								¡Hace <span className="underline">click acá</span> y agenda tu sesión gratuita, Este puede ser tu lugar!
 							</h3>
-							<p className="text-[18px] font-medium text-[#0F0248] text-center mt-[15px] leading-[110%]">Con solo dos clicks podes dar el primer paso hacia lo que muchos creen imposible.</p>
 						</a>
 					</div>
 				</div>

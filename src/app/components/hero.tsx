@@ -4,7 +4,7 @@ import Check from './svgs/check';
 
 export default function HeroSection() {
 	return (
-		<div className="relative">
+		<div className="relative px-4">
 			<img className="absolute top-0 left-0 w-full h-auto" src="/images/azda-banner-bg.webp" alt="Azda" />
 			<Header/>
 			<section className="relative z-40 max-w-[1200px] mx-auto pt-[90px] px-4">

@@ -7,12 +7,15 @@ import Proceso from "./components/proceso";
 import Agenda from "./components/agenda";
 import Faqs from "./components/faqs";
 import Footer from "./components/footer";
+import HeroSectionA from './components/heroA';
+import VslA from "./components/vslA";
 
 export default function Home() {
   return (
     <main>
-      <HeroSection/>
-      <Vsl/>
+      {/* <HeroSection/> */}
+      <HeroSectionA/>
+      <VslA/>
       <TestimoniosSection/>
       <Nosotros/>
       <Proceso/>

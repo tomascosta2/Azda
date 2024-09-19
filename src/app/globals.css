@@ -182,6 +182,27 @@ body {
 }
 
 /* 
+  Moving span 
+*/
+.moving-span-text {
+  @apply text-[18px] font-semibold text-white w-[200px] text-center;
+}
+.marquee {
+  display: flex;
+  gap: 40px;
+  animation: marquee 110s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+  transform: translateX(0%);
+  }
+  100% {
+  transform: translateX(-100%);
+  }
+}
+
+/* 
   Sections
 */
 .tc-container {
@@ -189,6 +210,9 @@ body {
   margin: 0 auto;
 }
 /* Hero */
+.dark-beneficts ul .foregroundColor {
+  background-color: #2404B1;
+}
 
 /* Testimonios */
 .testimonials-extra-shape {

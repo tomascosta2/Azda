@@ -1,8 +1,8 @@
 export default function Nosotros() {
 	return (
-		<section id="nosotros" className="foregroundColor py-[100px] relative overflow-clip">
+		<section id="nosotros" className="foregroundColor py-[60px] lg:py-[100px] px-4 relative overflow-clip">
 			<div className="max-w-[1200px] mx-auto px-4">
-				<div className="absolute -right-[200px] top-[calc(50%-331px)] size-[662px]">
+				<div className="hidden lg:block absolute -right-[200px] top-[calc(50%-331px)] size-[662px]">
 					<img className="rotate-on-scroll" src="/images/rueda-nosotros.png" alt="Rueda" />
 					<img className="z-30 absolute top-[37px] -left-[66px] w-[491px] h-[588px]" src="/images/fotos-y-logo-azda.png" alt="Nosotros Azda" />
 
@@ -15,10 +15,10 @@ export default function Nosotros() {
 					<div className="-rotate-[45deg] absolute w-[300px] overflow-clip bottom-[250px] left-[120px]">
 						<div className="translate-x-on-scroll -left-[500px] z-20 nosotros-dashed h-[2.2px] w-[1500px]"></div>
 					</div>
-
 				</div>
-				<div className="md:max-w-[50%] 2xl:max-w-[60%]">
-					<h2 className="text-[42px] text-white font-extrabold mb-[30px]">¿Qué es Azda?</h2>
+				<img className="block lg:hidden mb-[20px]" src="/images/rueda-nosotros-mobile.webp" alt="Rueda Nosotros" />
+				<div className="lg:max-w-[50%] 2xl:max-w-[60%]">
+					<h2 className="text-[30px] lg:text-[42px] text-white font-extrabold mb-[30px]">¿Qué es Azda?</h2>
 					<p className="text-white font-medium text-[16px]">
 						Las redes sociales han revolucionado la forma en que nos presentamos en el mercado laboral. No importa cuán talentoso seas o cuán exitosa sea tu empresa, si no tienes una presencia digital estratégica, estás perdiendo oportunidades valiosas.  
 						<br/><br/>

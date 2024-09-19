@@ -45,7 +45,7 @@ export default function proceso() {
 	]
 
 	return (
-		<section id="proceso" className="backgroundColor py-[100px] relative overflow-clip">
+		<section id="proceso" className="backgroundColor py-[100px] px-4 relative overflow-clip">
 			<div className="tc-container">
 				<h2 className="max-w-[900px] mx-auto leading-[110%] text-center text-[42px] text-white font-extrabold mb-[30px]">
 					La estrategia que usamos para escalar el negocio de todos nuestros clientes
@@ -55,7 +55,7 @@ export default function proceso() {
 						STEPS.map((step, i) => {
 							console.log(i);
 							return (
-								<div className="grid md:grid-cols-2 gap-[35px] mb-[45px] last:mb-0 md:h-[250px]">
+								<div className="grid md:grid-cols-2 gap-[20px] lg:gap-[35px] mb-[45px] last:mb-0 md:h-[250px]">
 									<div className={`flex flex-col justify-center ${i % 2 === 0 ? 'appear-from-left' : 'appear-from-right'}`}>
 										<h3 className="font-semibold text-[24px] text-[#FFF] mb-[10px]">{step.titulo}</h3>
 										<p className="text-[16px] text-white/80">{step.descripcion}</p>
