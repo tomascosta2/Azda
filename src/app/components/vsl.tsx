@@ -4,7 +4,7 @@ import BeneficiosPrincipales from "./beneficiosPrincipales";
 
 export default function Vsl() {
 	return (
-		<section className="relative z-40 mx-auto max-w-[1200px] pt-[60px]">
+		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[60px]">
 			<div>
 				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video <span className="text-red-500">*</span></p>
 				<div className="bg-gray-500 w-full aspect-video">	

@@ -4,7 +4,7 @@ import BeneficiosPrincipales from "./beneficiosPrincipales";
 
 export default function VslA() {
 	return (
-		<section className="relative z-40 mx-auto max-w-[1200px] pt-[100px] px-4 ">
+		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[100px] px-4 ">
 			<div>
 				<h2 className="text-center text-[30px] lg:text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mb-[40px]">Te Cuento como vos podes hacerlo</h2>
 				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video <span className="text-red-500">*</span></p>
