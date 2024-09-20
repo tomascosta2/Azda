@@ -12,7 +12,7 @@ export default function TestimoniosSection() {
 	const TESTIMONIOS: Testimonio[] = [
 		{
 		  cita: "Creo que no fue un gasto, fue una inversión de dinero",
-		  url: "https://www.youtube.com/embed/pcWygL1eVlg?si=SN4MkbEVyqoBjVvz",
+		  url: "https://fast.wistia.net/embed/iframe/omy7h0uw6u?seo=true&videoFoam=true",
 		  nombre: "Edgar Peña",
 		  cargo: "Consultora De RRHH",
 		},
