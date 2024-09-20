@@ -40,7 +40,7 @@ export default function proceso() {
 		{
 			titulo: "7. Escalar y repetir",
 			descripcion: "Por último repetiremos el ciclo de ventas hasta agregar 7,500 USD extra en tu facturación y hacerlo de manera predecible y sostenible en el tiempo.",
-			imgUrl: "/images/azda-paso-6.webp"
+			imgUrl: "/images/azda-paso-7.webp"
 		},
 	]
 
