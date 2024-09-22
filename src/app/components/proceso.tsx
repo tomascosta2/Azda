@@ -45,7 +45,7 @@ export default function proceso() {
 			aclaracion: ""
 		},
 		{
-			titulo: "7. Escalar y repetir",
+			titulo: "7. Escalar y repetir el proceso cada mes",
 			descripcion: "Por último repetiremos el ciclo de ventas hasta agregar 7,500 USD extra en tu facturación y hacerlo de manera predecible y sostenible en el tiempo.",
 			imgUrl: "/images/azda-paso-7.jpg",
 			aclaracion: ""
@@ -55,23 +55,24 @@ export default function proceso() {
 	return (
 		<section id="proceso" className="backgroundColor py-[60px] lg:py-[100px] px-4 relative overflow-clip">
 			<div className="tc-container">
-				<h2 className="max-w-[900px] mx-auto leading-[110%] text-center text-[30px] lg:text-[42px] text-white font-extrabold mb-[30px]">
-					La estrategia que usamos para escalar el negocio de todos nuestros clientes
+				<h2 className="max-w-[900px] mx-auto leading-[110%] text-center text-[30px] lg:text-[42px] text-white font-extrabold mb-[20px]">
+					El Paso a paso que usamos para escalar el negocio de todos nuestros clientes
 				</h2>
+				<p className="--sora text-center max-w-[700px] mx-auto text-[18px] text-white/80 lg:text-[22px] font-medium mb-[60px]">Creamos el sistema perfecto para que puedas estar tranquilo consiguiendo nuevos clientes premium todos los meses.</p>
 				<div className="max-w-[1000px] mx-auto mt-[60px]">
 					{
 						STEPS.map((step, i) => {
 							console.log(i);
 							return (
-								<div className="grid lg:grid-cols-2 gap-[20px] lg:gap-[35px] mb-[45px] last:mb-0 lg:h-[250px]">
+								<div className="grid lg:grid-cols-2 gap-[20px] lg:gap-[35px] mb-[50px] last:mb-0 lg:h-[250px]">
 									<div className={`max-w-[500px] mx-auto flex flex-col justify-center ${i % 2 === 0 ? 'appear-from-left' : 'appear-from-right'}`}>
 										<h3 className="font-bold text-[24px] text-[#FFF] mb-[10px]">{step.titulo}</h3>
-										<p className="text-[16px] text-white/80">{step.descripcion}</p>
+										<p className="text-[16px] normal-case text-white/80">{step.descripcion}</p>
 									</div>
 									<div className={`max-w-[500px] mx-auto w-full h-full ${i % 2 === 0 ? 'appear-from-right -order-1 lg:order-2' : 'appear-from-left -order-1'}`} >
 										{
 											step.aclaracion ? (
-												<img className="absolute -top-[45px] -right-[100px] max-w-[230px] h-auto" src={step.aclaracion} alt="Aclaracion de paso" />
+												<img className="absolute -top-[35px] md:-top-[45px] -right-[20px] md:-right-[100px] max-w-[230px] h-auto" src={step.aclaracion} alt="Aclaracion de paso" />
 											) : ''
 										}
 										<img 

@@ -1,11 +1,32 @@
+import Linkedin from "./svgs/linkedin";
+
 export default function Nosotros() {
 	return (
 		<section id="nosotros" className="foregroundColor py-[60px] lg:py-[100px] px-4 relative overflow-clip">
 			<div className="max-w-[1200px] mx-auto px-4">
 				<div className="hidden lg:block absolute -right-[200px] top-[calc(50%-331px)] size-[662px]">
+					{/* Enlaces a Linkedin */}
+					<a 
+						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute top-[40px] left-[50px]" 
+						href="https://linkedin.com"
+						target="_blank"
+					><Linkedin/></a>
+					<a 
+						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute top-[250px] -left-[66px]" 
+						href="https://linkedin.com"
+						target="_blank"
+					><Linkedin/></a>
+					<a 
+						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute bottom-[35px] left-[50px]" 
+						href="https://linkedin.com"
+						target="_blank"
+					><Linkedin/></a>
+					{/* Rueda */}
 					<img className="rotate-on-scroll" src="/images/rueda-nosotros.png" alt="Rueda" />
+					{/* Fotos Chicos */}
 					<img className="z-30 absolute top-[37px] -left-[66px] w-[491px] h-[588px]" src="/images/fotos-y-logo-azda.png" alt="Nosotros Azda" />
 
+					{/* Lineas Con Animacion */}
 					<div className="absolute left-0 overflow-clip top-[calc(50%)]">
 						<div className="translate-x-on-scroll -left-[500px] z-20 nosotros-dashed h-[2.2px] w-[1500px]"></div>
 					</div>
@@ -18,19 +39,17 @@ export default function Nosotros() {
 				</div>
 				<img className="block lg:hidden mb-[20px]" src="/images/rueda-nosotros-mobile.webp" alt="Rueda Nosotros" />
 				<div className="lg:max-w-[50%] 2xl:max-w-[60%]">
-					<h2 className="text-[30px] lg:text-[42px] text-white font-extrabold mb-[30px]">¿Qué es Azda?</h2>
-					<p className="text-white font-medium text-[16px]">
-						Las redes sociales han revolucionado la forma en que nos presentamos en el mercado laboral. No importa cuán talentoso seas o cuán exitosa sea tu empresa, si no tienes una presencia digital estratégica, estás perdiendo oportunidades valiosas.  
-						<br/><br/>
-						En Azda, entendemos el poder del marketing digital para impulsar tu carrera o negocio. 
-						<br/><br/>
-						Te ayudamos a construir una marca sólida en línea, no solo a nivel local, sino también a expandirte globalmente. 
-						<br/><br/>
-						Esto no solo significa un mayor alcance y crecimiento, sino también la posibilidad de acceder a mercados internacionales con mayores ingresos.  
-						<br/><br/>
-						Nuestro enfoque es simple: acompañarte en tu "mudanza digital". Juntos, optimizaremos tu presencia en línea para atraer a clientes de alto valor y generar oportunidades de negocio que impulsen tu crecimiento tanto en cantidad como en calidad.  
-						<br/><br/>						
-						Las oportunidades en el mundo digital esperan por ti. Contáctanos hoy mismo y descubre cómo podemos ayudarte a alcanzar tus objetivos!
+					<h2 className="text-[30px] lg:text-[42px] text-white leading-[120%] font-extrabold mb-[30px]">¿Qué es Azda Corporation y quiénes somos?</h2>
+					<p className="normal-case text-white/90 font-medium text-[16px] text-justify">
+						Azda Corporation, es tu aliado estratégico enfocado a impulsar tu negocio de Coaching o Consultoría hacia el éxito. Nuestra misión es clara: proporcionarte la información, sistemas, equipo y el expertise necesarios para alcanzar tus metas.
+						<br /><br />
+						Fundada por Vicente Calderón, Mateo Retamar y Octavio Navarta, <strong className="text-white">tres jóvenes fanáticos del marketing digital y la creación de sistemas constantes</strong>.
+						<br /><br />
+						Somos expertos en soluciones digitales a medida para el mercado de Coaching y Consultores. Con un equipo de profesionales apasionados, diseñamos embudos de adquisición de clientes altamente efectivos y estrategias de posicionamiento de marca que te convertirán en un referente en tu rubro.
+						<br /><br />
+						No somos simplemente un proveedor de servicios, sino tus socios en el crecimiento.
+						<br /><br />
+						Priorizamos la personalización y nos aseguramos de que cada socio con el que trabajemos obtenga resultados óptimos y eficientes.
 					</p>
 				</div>
 			</div>

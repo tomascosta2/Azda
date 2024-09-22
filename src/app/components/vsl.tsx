@@ -21,7 +21,7 @@ export default function Vsl() {
 			</div>			
 			<BeneficiosPrincipales/>
 			<div className="mt-[80px]">
-				<p className="text-center text-[22px] font-bold text-white relative z-50">PASO 2 de 2:<br/><span className="tcp-underline --4">Agendá tu sesión gratis ahora</span></p>
+				<p className="text-center text-[22px] font-bold text-white relative z-50">PASO 2 de 2:<br/><span>Agendá tu sesión gratis ahora</span></p>
 				<div className="relative h-[700px] lg:-mt-[40px]">
 					<div className="absolute z-20 size-[400px] left-[calc(50%-200px)] top-[calc(50%-200px)] foregroundColor blur-[140px]"></div>
 					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>

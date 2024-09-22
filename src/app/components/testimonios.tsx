@@ -11,7 +11,7 @@ export default function TestimoniosSection() {
 
 	const TESTIMONIOS: Testimonio[] = [
 		{
-		  cita: "Creo que no fue un gasto, fue una inversión de dinero",
+		  cita: "Me conectaron con +150 potenciales clientes interesados en mi servicio",
 		  url: "https://fast.wistia.net/embed/iframe/omy7h0uw6u?seo=true&videoFoam=true",
 		  nombre: "Edgar Peña",
 		  cargo: "Consultora De RRHH",
@@ -31,7 +31,7 @@ export default function TestimoniosSection() {
 	];
 
 	return (
-		<section id="testimonios" className="foregroundColor py-[100px] relative">
+		<section id="testimonios" className="foregroundColor py-[60px] lg:py-[100px] relative">
 			<div className="testimonials-extra-shape"></div>
 			<div className="max-w-[1200px] mx-auto px-4">
 				<div className="flex gap-[7px] justify-center">
@@ -41,7 +41,7 @@ export default function TestimoniosSection() {
 					<Star/>
 					<Star/>
 				</div>
-				<h2 className="text-center text-[30px] lg:text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mt-[14px] mb-[10px]">Nuestros ultimos <span className="tcp-underline --4">Casos de éxito</span></h2>
+				<h2 className="text-center text-[30px] lg:text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mt-[14px] mb-[10px]">Últimos casos de éxito</h2>
 				<p className="--sora text-center max-w-[600px] mx-auto text-[18px] lg:text-[22px] font-medium mb-[60px]">Estos son algunos de nuestros casos de éxito, invirtieron con nosotros y escalamos su coaching/consultoría.</p>
 				<div className="grid lg:grid-cols-2 gap-x-[40px] gap-y-[50px]">
 					{
@@ -66,10 +66,10 @@ export default function TestimoniosSection() {
 					}
 					<div className="block">
 						<p className="font-semibold text-[20px] lg:text-[24px] mb-[15px] text-center">
-							"Yo tambien quiero empezar a facturar usd7.500, ¿Comó Hago?"
+							"Yo también quiero empezar a ganar $7.500 USD ¿Cómo hago?"
 						</p>
-						<a href="#calendlyDos" className="bg-[#ECE8FF] p-[39px] h-[315px] flex flex-col items-center justify-center">
-							<h3 className="text-[32px] font-bold text-[#0F0248] leading-[110%] text-center">
+						<a href="#calendlyDos" className="bg-[#0F0248] p-[39px] h-[315px] flex flex-col items-center justify-center">
+							<h3 className="text-[32px] font-bold text-[#FFF] leading-[110%] text-center">
 								¡Hace <span className="underline">click acá</span> y agenda tu sesión gratuita, Este puede ser tu lugar!
 							</h3>
 						</a>
