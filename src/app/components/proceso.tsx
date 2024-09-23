@@ -29,7 +29,7 @@ export default function proceso() {
 		{
 			titulo: "4. Reuniones de venta 1a1 con potenciales clientes",
 			descripcion: "Vamos a buscar, filtrar, calificar, nutrir y redirigir a mínimo 54 potenciales clientes interesados en tu servicio a una llamada de venta contigo, y si, esto también lo hacemos por ti para que no te quedes sin tiempo.",
-			imgUrl: "/images/azda-paso-4.jpg",
+			imgUrl: "/images/azda-paso-4.webp",
 			aclaracion: ""
 		},
 		{
