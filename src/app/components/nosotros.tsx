@@ -8,17 +8,17 @@ export default function Nosotros() {
 					{/* Enlaces a Linkedin */}
 					<a 
 						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute top-[40px] left-[50px]" 
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/mateo-retamar-453104269/"
 						target="_blank"
 					><Linkedin/></a>
 					<a 
 						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute top-[250px] -left-[66px]" 
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/octavio-navarta/"
 						target="_blank"
 					><Linkedin/></a>
 					<a 
 						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] rounded-full absolute bottom-[35px] left-[50px]" 
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/mateo-retamar-453104269/"
 						target="_blank"
 					><Linkedin/></a>
 					{/* Rueda */}

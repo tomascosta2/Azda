@@ -2,7 +2,7 @@ import Logo from "./elements/logo";
 
 export default function Footer() {
 	return (
-		<footer className="py-[40px] relative">
+		<footer className="py-[40px] px-4 relative">
 			<div className="tcp-footer-bg"></div>
 			<div className="flex justify-center mb-[10px]">
 				<Logo/>
