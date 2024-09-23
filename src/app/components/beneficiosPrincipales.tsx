@@ -7,7 +7,7 @@ export default function BeneficiosPrincipales() {
 				<div className="foregroundColor rounded-full flex items-center justify-center size-[35px]">
 					<Check />
 				</div>
-				+54 llamadas calificadas con posibles clientes
+				<p>+54 llamadas <strong>calificadas</strong> con posibles clientes</p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center size-[35px]">
@@ -19,19 +19,19 @@ export default function BeneficiosPrincipales() {
 				<div className="foregroundColor rounded-full flex items-center justify-center size-[35px]">
 					<Check />
 				</div>
-				Acompañamiento 24/7
+				<p>Acompañamiento <strong>24/7</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center size-[35px]">
 					<Check />
 				</div>
-				Comunidad de Coaches exclusiva
+				<p>Comunidad con <strong>+300 coaches/consultores</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center size-[35px]">
 					<Check />
 				</div>
-				+7500 USD Asegurados Por Contrato
+				<p><strong>+7500 USD Garantizados</strong> Por Contrato</p>
 			</li>
 		</ul>
 	)

@@ -6,8 +6,8 @@ export default function VslA() {
 	return (
 		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[100px] px-4 ">
 			<div>
-				<h2 className="text-center text-[30px] lg:text-[42px] font-extrabold leading-[110%] max-w-[900px] mx-auto mb-[40px]">TE CUENTO COMO VAMOS A LOGRARLO CON VOS</h2>
-				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video <span className="text-red-500">*</span></p>
+				<h2 className="text-center text-[30px] lg:text-[34px] font-extrabold leading-[110%] max-w-[900px] mx-auto mb-[40px]">TE CUENTO COMO VAMOS A LOGRARLO CON VOS</h2>
+				<p className="text-center text-[22px] font-bold text-white relative z-50 mb-[30px]"><span className="text-shadow text-[26px]">PASO 1 de 2:</span><br/> Mira Este Video <span className="text-red-500">*</span></p>
 				<div className="bg-gray-500 w-full aspect-video">	
 					<iframe 										
 						className="w-full h-full"
@@ -22,8 +22,8 @@ export default function VslA() {
 			</div>
 			<BeneficiosPrincipales/>
 			<div className="mt-[80px]">
-				<p className="text-center text-[22px] font-bold text-white relative z-50">PASO 2 de 2:<br/><span>¡Agendá tu sesión gratis ahora!</span></p>
-				<p className="text-center text-[16px] text-white/80 max-w-[600px] mx-auto">Programa tu llamada 100% gratuita en el calendario de abajo para ver si sos un buen fit para nuestro programa</p>
+				<p className="text-center text-[22px] font-bold text-white relative z-50"><span className="text-shadow text-[26px]">PASO 2 de 2:</span><br/><span>¡Agendá tu sesión de consultoria gratuita ahora!</span></p>
+				<p className="text-center text-[16px] text-white/80 max-w-[600px] mx-auto">Tus respuestas serán completamente confidenciales y se utilizarán para preparar una estrategia para ti antes de la llamada.</p>
 				<div className="relative h-[700px] mt-[30px] lg:-mt-[40px]">
 					<div className="absolute z-20 size-[400px] left-[calc(50%-200px)] top-[calc(50%-200px)] foregroundColor blur-[140px]"></div>
 					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>

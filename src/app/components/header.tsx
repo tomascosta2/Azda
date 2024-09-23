@@ -9,8 +9,8 @@ export default function Header() {
 				<nav className="hidden lg:flex gap-[30px]">
 					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#testimonios">Testimonios</Link>
 					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#nosotros">Quienes Somos</Link>
-					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#proceso">proceso</Link>
-					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#faqs">FAQs</Link>
+					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#proceso">Estrategia</Link>
+					<Link className="text-[16px] font-medium text-[#F5F5F5]/80 hover:text-white transition-all" href="#faqs">Preguntas</Link>
 				</nav>
 			</div>
 		</header>

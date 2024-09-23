@@ -213,6 +213,9 @@ body {
 .dark-beneficts ul .foregroundColor {
   background-color: #2404B1;
 }
+.text-shadow {
+  text-shadow: 0 0 25px #FFFFFFdf;
+}
 
 /* Testimonios */
 .testimonials-extra-shape {
