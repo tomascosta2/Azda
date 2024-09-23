@@ -15,8 +15,8 @@ export default function Agenda () {
 						</ol>
 						<p className="text-white text-[16px]">Y listo, diste el primer paso hacia tu meta. El dia de la llamada te va llegar un enlace a Meet por Correo y por Whatsapp.</p>
 					</div>
-					<div className="relative bg-white lg:p-[40px] lg:rounded-[8px]">
-						<div className="relative z-40 w-[450px] max-w-full calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_event_type_details=1&hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
+					<div className="relative bg-white lg:px-[40px] lg:py-[20px] lg:rounded-[8px]">
+						<div className="relative z-40 w-[450px] max-w-full calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_event_type_details=1&hide_gdpr_banner=1" style={{minWidth:'320px', height:'500px'}}></div>
 					</div>
 				</div>
 			</div>
