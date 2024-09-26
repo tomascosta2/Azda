@@ -7,7 +7,7 @@ export default function VslA() {
 		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[100px] px-4 ">
 			<div>
 				<h2 className="text-center text-[30px] lg:text-[34px] font-extrabold leading-[110%] max-w-[900px] mx-auto mb-[40px]">TE CUENTO COMO VAMOS A LOGRARLO CON VOS</h2>
-				<p className="text-center text-[22px] font-bold text-white relative z-50 mb-[30px]"><span className="text-shadow text-[26px]">PASO 1 de 2:</span><br/> Mira Este Video <span className="text-red-500">*</span></p>
+				<p className="text-center text-[22px] font-bold text-white relative z-50 mb-[30px]"><span className="text-shadow text-[26px]">PASO 1 de 2:</span> Mira Este Video</p>
 				<div className="bg-gray-500 w-full aspect-video">	
 					<iframe 										
 						className="w-full h-full"

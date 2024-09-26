@@ -66,7 +66,7 @@ export default function TestimoniosSection() {
 					}
 					<div className="block">
 						<p className="font-semibold text-[20px] lg:text-[24px] mb-[15px] text-center">
-							"Yo también quiero empezar a ganar <br /> 7500 usd ¿Cómo hago?"
+							"Yo también quiero empezar a ganar <br /> 7500 USD ¿Cómo hago?"
 						</p>
 						<a href="#calendlyDos" className="bg-[#0F0248] p-[39px] h-[315px] flex flex-col items-center justify-center">
 							<h3 className="text-[32px] font-bold text-[#FFF] leading-[110%] text-center">

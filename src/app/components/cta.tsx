@@ -7,7 +7,7 @@ export default function Cta() {
 			>
 				¡Agenda Tu Consultoria Gratuita!
 			</a>
-			<span className="block text-[16px] font-medium text-white/80 text-center">Agenda Con Un Par De Clics</span>
+			{/* <span className="block text-[16px] font-medium text-white/80 text-center">Agenda Con Un Par De Clics</span> */}
 		</div>
 	)
 }

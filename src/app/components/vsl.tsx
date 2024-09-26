@@ -6,7 +6,7 @@ export default function Vsl() {
 	return (
 		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[60px]">
 			<div>
-				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video <span className="text-red-500">*</span></p>
+				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">PASO 1 de 2: Mira Este Video</p>
 				<div className="bg-gray-500 w-full aspect-video">	
 					<iframe 										
 						className="w-full h-full"
@@ -21,7 +21,7 @@ export default function Vsl() {
 			</div>			
 			<BeneficiosPrincipales/>
 			<div className="mt-[80px]">
-				<p className="text-center text-[22px] font-bold text-white relative z-50">PASO 2 de 2:<br/><span>Agendá tu sesión gratis ahora</span></p>
+				<p className="text-center text-[22px] font-bold text-white relative z-50"><span className="text-shadow text-[26px]">PASO 2 de 2:</span><br/><span>Agendá tu sesión gratis ahora</span></p>
 				<div className="relative h-[700px] lg:-mt-[40px]">
 					<div className="absolute z-20 size-[400px] left-[calc(50%-200px)] top-[calc(50%-200px)] foregroundColor blur-[140px]"></div>
 					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
