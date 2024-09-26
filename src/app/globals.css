@@ -91,6 +91,7 @@ body {
   animation: appearFromBottom ease-in both;
   animation-timeline: view();
   animation-range: entry 15% cover 40%;
+  -webkit-animation: appearFromBottom 1s ease-in both;
 }
 @keyframes appearFromBottom {
   from {

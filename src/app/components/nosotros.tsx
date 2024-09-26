@@ -39,13 +39,13 @@ export default function Nosotros() {
 				</div>
 				<img className="block lg:hidden mb-[20px]" src="/images/rueda-nosotros-mobile.webp" alt="Rueda Nosotros" />
 				<div className="lg:max-w-[50%] 2xl:max-w-[60%]">
-					<h2 className="text-[30px] lg:text-[42px] text-white leading-[120%] font-extrabold mb-[30px]">¿Qué es Azda Corporation y quiénes somos?</h2>
+					<h2 className="text-[26px] lg:text-[42px] text-white leading-[120%] font-extrabold mb-[30px]">¿Qué es Azda Corporation y quiénes somos?</h2>
 					<p className="normal-case text-white/80 font-medium text-[16px] text-justify">
 						Azda Corporation, es tu aliado estratégico enfocado a impulsar <strong className="text-white">tu negocio de Coaching o Consultoría hacia el éxito</strong>. Nuestra misión es clara: proporcionarte la información, sistemas, equipo y el expertise necesarios para alcanzar tus metas.
 						<br /><br />
 						Fundada por Vicente Calderón, Mateo Retamar y Octavio Navarta, <strong className="text-white">tres jóvenes fanáticos del marketing digital y la creación de sistemas constantes</strong>.
 						<br /><br />
-						Somos expertos en soluciones digitales a medida para el mercado de Coaching y Consultores. Con un <strong className="text-white">equipo de profesionales apasionados</strong>, diseñamos embudos de adquisición de clientes altamente efectivos y estrategias de posicionamiento de marca que <strong>te convertirán en un referente en tu rubro</strong>.
+						Somos expertos en soluciones digitales a medida para el mercado de Coaching y Consultores. Con un <strong className="text-white">equipo de profesionales apasionados</strong>, diseñamos embudos de adquisición de clientes altamente efectivos y estrategias de posicionamiento de marca que <strong className="text-white">te convertirán en un referente en tu rubro</strong>.
 						<br /><br />
 						<strong className="text-white">No somos simplemente un proveedor de servicios, sino tus socios en el crecimiento.</strong>
 						<br /><br />

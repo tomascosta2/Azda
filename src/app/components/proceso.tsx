@@ -55,7 +55,7 @@ export default function proceso() {
 	return (
 		<section id="proceso" className="backgroundColor py-[60px] lg:py-[100px] px-4 relative overflow-clip">
 			<div className="tc-container">
-				<h2 className="max-w-[900px] mx-auto leading-[110%] text-center text-[30px] lg:text-[42px] text-white font-extrabold mb-[20px]">
+				<h2 className="max-w-[1000px] mx-auto leading-[110%] text-center text-[26px] lg:text-[42px] text-white font-extrabold mb-[20px]">
 					Nuestro Paso a paso para escalar tu negocio
 				</h2>
 				<p className="--sora text-center max-w-[700px] mx-auto text-[18px] text-white/80 lg:text-[22px] font-medium mb-[60px]">Creamos el sistema perfecto para que puedas estar tranquilo consiguiendo nuevos clientes premium todos los meses.</p>
