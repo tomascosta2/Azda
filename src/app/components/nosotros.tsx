@@ -2,7 +2,7 @@ import Linkedin from "./svgs/linkedin";
 
 export default function Nosotros() {
 	return (
-		<section id="nosotros" className="foregroundColor py-[60px] lg:py-[100px] px-4 relative overflow-clip">
+		<section id="nosotros" className="foregroundColor py-[60px] lg:pb-[100px] lg:pt-[80px] px-4 relative overflow-clip">
 			<div className="max-w-[1200px] mx-auto px-4">
 				<div className="hidden lg:block absolute -right-[300px] xl:-right-[200px] top-[calc(50%-331px)] size-[662px]">
 					{/* Enlaces a Linkedin */}
