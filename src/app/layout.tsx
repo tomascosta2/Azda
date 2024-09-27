@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import '@fontsource-variable/inter';
 import '@fontsource-variable/sora';
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Azda Corporation ~ Impulsamos tu carrera o negocio, guiandote hacia una facturacion de +7.500usd",
@@ -31,6 +32,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ364172ME"></Script>
+        <Script id="google-analitycs">
+          {
+            `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-WZ364172ME');
+            `
+          }
+        </Script>
+      </head>
       <body>
         {children}
       </body>
