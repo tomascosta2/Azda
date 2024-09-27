@@ -39,7 +39,7 @@ export default function Nosotros() {
 				</div>
 				<div className="relative block lg:hidden mb-[20px]">
 					<a 
-						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] scale-75 rounded-full absolute top-[30px] right-[0px]" 
+						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] scale-75 rounded-full absolute top-[30px] -right-[14px]" 
 						href="https://wa.me/+542665030556?text=Hola%2C%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20c%C3%B3mo%20puedo%20aumentar%20mi%20facturaci%C3%B3n%20con%20sus%20servicios.%20%C2%BFCu%C3%A1ndo%20podr%C3%ADamos%20agendar%20una%20llamada%3F"
 						target="_blank"
 					><Linkedin/></a>
@@ -49,7 +49,7 @@ export default function Nosotros() {
 						target="_blank"
 					><Linkedin/></a>
 					<a 
-						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] scale-75 rounded-full absolute top-[30px] left-[0px]" 
+						className="z-50 flex items-center justify-center bg-[#0F0248] size-[55px] scale-75 rounded-full absolute top-[30px] -left-[14px]" 
 						href="https://www.linkedin.com/in/mateo-retamar-453104269/"
 						target="_blank"
 					><Linkedin/></a>
