@@ -64,15 +64,15 @@ export default function proceso() {
 						STEPS.map((step, i) => {
 							console.log(i);
 							return (
-								<div className="grid lg:grid-cols-2 gap-[20px] lg:gap-[35px] mb-[50px] last:mb-0 lg:h-[250px]">
+								<div className="grid lg:grid-cols-2 gap-[20px] lg:gap-[35px] mb-[70px] lg:mb-[50px] last:mb-0 lg:h-[250px]">
 									<div className={`max-w-[500px] mx-auto flex flex-col justify-center ${i % 2 === 0 ? 'appear-from-left' : 'appear-from-right'}`}>
 										<h3 className="font-bold text-[24px] text-[#FFF] mb-[10px] text-balance">{step.titulo}</h3>
 										<p className="text-[16px] normal-case text-white/80">{step.descripcion}</p>
 									</div>
-									<div className={`max-w-[500px] mx-auto w-full h-full ${i % 2 === 0 ? 'appear-from-right -order-1 lg:order-2' : 'appear-from-left -order-1'}`} >
+									<div className={`max-w-[500px] mx-auto w-full h-full ${i % 2 === 0 ? 'appear-from-right order-2' : 'appear-from-left order-2 lg:-order-1'}`} >
 										{
 											step.aclaracion ? (
-												<img className="absolute -top-[35px] md:-top-[45px] -right-[20px] md:-right-[100px] max-w-[230px] h-auto" src={step.aclaracion} alt="Aclaracion de paso" />
+												<img className="hidden md:block absolute -top-[35px] md:-top-[45px] -right-[20px] md:-right-[100px] max-w-[230px] h-auto" src={step.aclaracion} alt="Aclaracion de paso" />
 											) : ''
 										}
 										<img 
