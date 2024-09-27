@@ -6,7 +6,7 @@ export default function Vsl() {
 	return (
 		<section id="vsl" className="relative z-40 mx-auto max-w-[1200px] pt-[60px]">
 			<div>
-				<p className="bg-[#2404B1] text-center p-[13px] text-[18px] font-bold text-white">Paso 1 de 2: Mira Este Video</p>
+				<p className="text-center text-[22px] font-bold text-white relative z-50 mb-[30px]"><span className="text-shadow text-[26px]">Paso 1 de 2:</span> Mira Este Video</p>
 				<div className="bg-gray-500 w-full aspect-video">	
 					<iframe 										
 						className="w-full h-full"
