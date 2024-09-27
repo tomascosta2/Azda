@@ -7,31 +7,31 @@ export default function BeneficiosPrincipales() {
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p>+54 llamadas <strong>calificadas</strong> con posibles clientes</p>
+				<p><strong>+54 llamadas calificadas con posibles clientes</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p>Entrenamiento <strong>EXCLUSIVO</strong> en ventas</p>
+				<p><strong>Entrenamiento EXCLUSIVO en ventas</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p>Acompañamiento <strong>24/7</strong></p>
+				<p><strong>Acompañamiento 24/7</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p>Comunidad con <strong>+300 coaches/consultores</strong></p>
+				<p><strong>Comunidad con +300 coaches/consultores</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p><strong>+7500 USD Garantizados</strong> Por Contrato</p>
+				<p><strong>+7500 USD Garantizados Por Contrato</strong></p>
 			</li>
 		</ul>
 	)
