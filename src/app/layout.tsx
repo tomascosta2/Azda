@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Azda Corporation ~ Impulsamos tu carrera o negocio, guiándote hacia una facturación de +7.500usd",
     description: "Las redes sociales han revolucionado la forma en que nos presentamos en el mercado laboral. No importa cuán talentoso seas o cuán exitosa sea tu empresa, si no tienes una presencia digital estratégica, estás perdiendo oportunidades valiosas.",
-    url: "https://www.azdacorporation.com/",  // Reemplaza con tu dominio
+    url: "https://www.azdacorporation.com/", 
     siteName: "Azda Corporation",
     images: [
       {
-        url: "https://www.azdacorporation.com/images/logo-azda-share.jpg", // Ruta de la imagen
-        width: 500, // Tamaño recomendado
+        url: "https://www.azdacorporation.com/images/logo-azda-share.jpg", 
+        width: 500, 
         height: 500,
-        alt: "Logo de Azda Corporation", // Descripción de la imagen
+        alt: "Logo de Azda Corporation", 
       },
     ],
-    locale: "es_ES", // Configura el idioma adecuado
+    locale: "es_ES", 
     type: "website",
   },
 };
