@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     siteName: "Azda Corporation",
     images: [
       {
-        url: "/images/logo-azda-share.jpg", // Ruta de la imagen
-        width: 1200, // Tamaño recomendado
-        height: 630,
+        url: "https://www.azdacorporation.com/images/logo-azda-share.jpg", // Ruta de la imagen
+        width: 500, // Tamaño recomendado
+        height: 500,
         alt: "Logo de Azda Corporation", // Descripción de la imagen
       },
     ],
