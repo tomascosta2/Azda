@@ -37,7 +37,10 @@ export default function Nosotros() {
 						<div className="translate-x-on-scroll -left-[500px] z-20 nosotros-dashed h-[2.2px] w-[1500px]"></div>
 					</div>
 				</div>
-				<img className="block lg:hidden mb-[20px]" src="/images/rueda-nosotros-mobile.webp" alt="Rueda Nosotros" />
+				<div className="relative block lg:hidden mb-[20px]">
+					<img className="relative z-50" src="/images/fotos-y-logo-azda-mobile.webp" alt="Rueda Nosotros" />
+					<img className="absolute bottom-0 left-0 rotate-on-scroll" src="/images/rueda-azda-mobile.webp" alt="Rueda Nosotros" />
+				</div>
 				<div className="lg:max-w-[50%] 2xl:max-w-[60%]">
 					<h2 className="text-[26px] lg:text-[42px] text-white leading-[120%] font-extrabold mb-[30px]">¿Qué es Azda Corporation y quiénes somos?</h2>
 					<p className="normal-case text-white/80 font-medium text-[16px] text-justify">
