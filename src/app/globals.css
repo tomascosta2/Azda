@@ -207,9 +207,12 @@ body {
   Sections
 */
 .tc-container {
-  max-width: 1200px;
+  @apply 2xl:max-w-[1200px] xl:max-w-[1040px] max-w-[960px]; 
+}
+.tc-container {
   margin: 0 auto;
 }
+
 /* Hero */
 .dark-beneficts ul .foregroundColor {
   background-color: #2404B1;
