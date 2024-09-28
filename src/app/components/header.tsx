@@ -3,7 +3,7 @@ import Logo from "./elements/logo";
 
 export default function Header() {
 	return (
-		<header className="relative z-40 max-w-[1200px] mx-auto px-4 pt-[10px] tcp-header">
+		<header className="relative z-40 max-w-[1200px] mx-auto px-4 pt-[5px] tcp-header">
 			<div className="flex justify-center lg:justify-between items-center">
 				<Logo/>
 				<nav className="hidden lg:flex gap-[30px]">
