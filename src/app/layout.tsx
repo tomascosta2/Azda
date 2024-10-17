@@ -48,6 +48,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <Script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></Script>
       </body>
     </html>
   );
