@@ -11,9 +11,9 @@ export default function Footer() {
 					</div>
 					<div className="text-center normal-case mt-[20px]">
 						<p className="font-bold mb-[12px]">Información de contacto:</p>
-						<p>Vicente Calderon Syriani - +54 9 2665 03-0164 - vicentecasy@gmail.com</p>
-						<p>Octavio Navarta Perassolo - +54 9 2665 01-6691 - octavionavarta@gmail.com</p>
-						<p>Mateo Retamar Garcia - +54 9 2664 79-2303 - mateo27k4@gmail.com</p>
+						<p><span>Vicente Calderon Syriani</span> - <span>+54 9 2665 03-0164</span> - <span>vicentecasy@gmail.com</span></p>
+						<p><span>Octavio Navarta Perassolo</span> - <span>+54 9 2665 01-6691</span> - <span>octavionavarta@gmail.com</span></p>
+						<p><span>Mateo Retamar Garcia</span> - <span>+54 9 2664 79-2303</span> - <span>mateo27k4@gmail.com</span></p>
 						<p className="mt-[12px]">azdacorporation2024@gmail.com</p>
 					</div>
 				</div>
