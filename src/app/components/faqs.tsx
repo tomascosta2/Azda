@@ -34,7 +34,7 @@ export default function Faqs() {
 	}
 
 	return (
-		<section id="faqs" className="py-[60px] lg:py-[100px] px-4">
+		<section id="faqs" className="relative py-[60px] lg:py-[100px] px-4">
 			<div className="tc-container">
 				<h2 className="mb-[40px] leading-[110%] text-center text-[42px] text-white font-extrabold">Preguntas Frecuentes</h2>
 				<div className="max-w-[800px] mx-auto">
