@@ -24,7 +24,7 @@ export default function Vsl() {
 				<p className="text-center text-[22px] font-bold text-white relative z-50"><span className="text-shadow text-[26px]">Paso 2 de 2:</span><br/><span>Agendá tu sesión gratis ahora</span></p>
 				<div className="relative h-[700px] lg:-mt-[40px]">
 					<div className="absolute z-20 size-[400px] left-[calc(50%-200px)] top-[calc(50%-200px)] foregroundColor blur-[140px]"></div>
-					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/-azda/corporation?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
+					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/vicente-calderon/consultoria?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
 				</div>
 				<Script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></Script>
 			</div>
