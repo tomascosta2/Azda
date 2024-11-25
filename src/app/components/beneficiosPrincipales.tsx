@@ -7,7 +7,7 @@ export default function BeneficiosPrincipales() {
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
 					<Check />
 				</div>
-				<p><strong>+54 llamadas calificadas con posibles clientes</strong></p>
+				<p><strong>+50 llamadas calificadas con posibles clientes</strong></p>
 			</li>
 			<li className="flex gap-[10px] items-center text-[18px] font-medium">
 				<div className="foregroundColor rounded-full flex items-center justify-center min-w-[35px] size-[35px]">
