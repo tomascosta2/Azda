@@ -9,6 +9,7 @@ import Faqs from "./components/faqs";
 import Footer from "./components/footer";
 import HeroSectionA from './components/heroA';
 import VslA from "./components/vslA";
+import Comentarios from "./components/comentarios";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <TestimoniosSection/>
       <Nosotros/>
       <Proceso/>
+      <Comentarios/>
       <Agenda/>
       <Faqs/>
       <Footer/>
