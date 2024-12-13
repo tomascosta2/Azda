@@ -66,7 +66,7 @@ export default function Comentarios() {
 											alt={comentario.nombre} 
 										/>
 										<div>
-											<a href={comentario.enlace} className="text-white font-semibold text-[18px]">
+											<a href={comentario.enlace} target="_blank" className="text-white font-semibold text-[18px] underline">
 												{comentario.nombre}
 											</a>
 											<p className="text-white/70">
