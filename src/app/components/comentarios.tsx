@@ -53,7 +53,7 @@ export default function Comentarios() {
 				<h2 className="max-w-[1000px] mx-auto leading-[110%] text-center text-[32px] lg:text-[42px] text-white font-extrabold mb-[20px]">
 					Más Testimonios
 				</h2>
-				<p className="--sora text-center max-w-[700px] mx-auto text-[18px] text-white/80 lg:text-[22px] font-medium mb-[60px]">Vos podes ser el proximo...</p>
+				<p className="--sora text-center max-w-[700px] mx-auto text-[18px] text-white/80 lg:text-[22px] font-medium mb-[60px]">Tu puedes ser el proximo...</p>
 				<div className="md:columns-2 gap-4">
 					{
 						COMENTARIOS.map((comentario) => {
