@@ -26,7 +26,7 @@ export default function VslA() {
 				<p className="text-center text-[16px] text-white/80 max-w-[600px] mx-auto">Tus respuestas serán completamente confidenciales y se utilizarán para preparar una estrategia para ti antes de la llamada.</p>
 				<div className="relative h-[700px] mt-[30px] lg:-mt-[40px]">
 					<div className="absolute z-20 size-[400px] left-[calc(50%-200px)] top-[calc(50%-200px)] foregroundColor blur-[140px]"></div>
-					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/vicente-calderon/consultoria?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
+					<div className="relative z-40 calendly-inline-widget" data-url="https://calendly.com/consultoria-azda/corporation?hide_gdpr_banner=1" style={{minWidth:'320px', height:'700px'}}></div>
 				</div>
 				<Script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></Script>
 			</div>
