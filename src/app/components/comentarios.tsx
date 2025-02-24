@@ -4,7 +4,7 @@ export default function Comentarios() {
 
 	const COMENTARIOS = [
 		{
-			foto: 'https://media.licdn.com/dms/image/v2/D4D03AQEFlCrG2h6gSw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724879383981?e=1739404800&v=beta&t=MhouF6JcpBr8P8_7ZE2cTYk_TPsVTDA8nsTGNMa-jBE',
+			foto: '/images/ayelen.jpeg',
 			nombre: "Ayelen Ziegler",
 			posicion: "Technical Recruiter Manager at Globty HR",
 			fecha: "30 de octubre de 2024",
@@ -12,7 +12,7 @@ export default function Comentarios() {
 			enlace: 'https://www.linkedin.com/in/ayelenziegler/',
 		},
 		{
-			foto: 'https://media.licdn.com/dms/image/v2/D5603AQHQNIz87wk3AA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725662253031?e=1739404800&v=beta&t=7gB5jyynDeuCGSLYhWPoTLQ2mkr-1LX-4cYH2gTxGms',
+			foto: '/images/alexsey-tejada.jpeg',
 			nombre: "Alexsey Tejada",
 			posicion: "Co-fundador Grupo C Asesores",
 			fecha: "28 de octubre de 2024",
@@ -20,7 +20,7 @@ export default function Comentarios() {
 			enlace: 'https://www.linkedin.com/in/alexsey-tejada-1168245a/',
 		},
 		{
-			foto: 'https://media.licdn.com/dms/image/v2/D4D03AQEbK5RJJDkLaw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719609500663?e=1739404800&v=beta&t=KvNakoMEKXfaAfPpJvYwT4yUMUxno47zOl-vluq7PdQ',
+			foto: '/images/alejandraaguilar.jpeg',
 			nombre: "Alejandra Aguilar",
 			posicion: "Founder AVANZ + Coach de liderazgo",
 			fecha: "18 de octubre de 2024",
@@ -28,7 +28,7 @@ export default function Comentarios() {
 			enlace: 'https://www.linkedin.com/in/alejandraaguilar/',
 		},
 		{
-			foto: 'https://media.licdn.com/dms/image/v2/D4E03AQFIBOz7_ZJhTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723683008791?e=1739404800&v=beta&t=Ou_ng5yX_swpfDS_JjS9M6WQbX1lyVVl2iCKs_BINYM',
+			foto: '/images/carlosfajerc.jpeg',
 			nombre: "Carlos Fájer",
 			posicion: "Socio Fundador de Fájer Romo Asociados",
 			fecha: "17 de octubre de 2024",
@@ -37,7 +37,7 @@ export default function Comentarios() {
 			enlace: 'https://www.linkedin.com/in/carlosfajerc/',
 		},
 		{
-			foto: 'https://media.licdn.com/dms/image/v2/D5603AQGOhIJu0Q5fmg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719499646245?e=1739404800&v=beta&t=QO99upRBiW-M2prt6XJ2LoxnxdXEypAuwcWxMZuGkx0',
+			foto: '/images/julioantoniofalces.jpeg',
 			nombre: "Julio Falces Delgado",
 			posicion: "Coach Ejecutivo Certificado + Consultor de RR.HH.",
 			fecha: "17 de octubre de 2024",
